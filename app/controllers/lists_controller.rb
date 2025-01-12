@@ -4,6 +4,7 @@ class ListsController < ApplicationController
     @list = List.new  
   end
   def index
+     @lists = List.all  
   end
 
   def show
